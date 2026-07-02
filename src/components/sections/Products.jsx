@@ -272,19 +272,30 @@ export default function Products() {
 
             <div className="flex flex-col items-center" style={{ gap: "16px" }}>
               <button
-                type="button"
-                onClick={() => {
-                  window.location.href = "mailto:info@technotrendz.co.in";
-                }}
-                className="group flex items-center gap-3 rounded-full bg-cyan-500 font-semibold text-black transition hover:scale-105"
-                style={{ padding: "22px 44px", fontSize: "14px", cursor: "pointer", border: "none" }}
-              >
-                Contact Sales
-                <ArrowRight
-                  size={16}
-                  className="transition group-hover:translate-x-1"
-                />
-              </button>
+  type="button"
+  onClick={() => {
+    const email = "info@technotrendz.co.in";
+
+    window.open(
+      `https://mail.google.com/mail/?view=cm&fs=1&to=${email}`,
+      "_blank"
+    );
+  }}
+  className="group flex items-center gap-3 rounded-full bg-cyan-500 font-semibold text-black transition hover:scale-105"
+  style={{
+    padding: "22px 44px",
+    fontSize: "14px",
+    cursor: "pointer",
+    border: "none",
+  }}
+>
+  Contact Sales
+
+  <ArrowRight
+    size={16}
+    className="transition group-hover:translate-x-1"
+  />
+</button>
 
               <div
                 className="flex items-center gap-2 text-slate-400"

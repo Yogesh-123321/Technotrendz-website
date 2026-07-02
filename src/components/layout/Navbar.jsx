@@ -7,7 +7,11 @@ const NAV_LINKS = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
   { label: "Products", href: "#products" },
-  { label: "Contact", href: "mailto:info@technotrendz.co.in" },
+  {
+    label: "Contact",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=info@technotrendz.co.in",
+    external: true,
+  },
 ];
 
 export default function Navbar() {
