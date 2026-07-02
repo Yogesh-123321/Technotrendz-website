@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sora:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+
+/* --------------------------
+   GOOGLE FONTS
+--------------------------- */
+
+/* --------------------------
+   ROOT VARIABLES
+--------------------------- */
+
+:root {
+
+  --background: #f8fafc;
+  --surface: rgba(255,255,255,.75);
+
+  --card: rgba(255,255,255,.7);
+
+  --border: rgba(0,0,0,.08);
+
+  --text: #111827;
+
+  --muted: #6b7280;
+
+  --primary: #d72638;
+
+  --primary-light: #ff4d5a;
+
+  --shadow:
+      0 20px 60px rgba(0,0,0,.08);
+
+}
+
+.dark{
+
+  --background:#050608;
+
+  --surface:#101114;
+
+  --card:rgba(255,255,255,.05);
+
+  --border:rgba(255,255,255,.08);
+
+  --text:#ffffff;
+
+  --muted:#9ca3af;
+
+  --primary:#d72638;
+
+  --primary-light:#ff4d5a;
+
+  --shadow:
+      0 30px 100px rgba(0,0,0,.45);
+
+}
+
+/* --------------------------
+   BASE
+--------------------------- */
+
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+scroll-behavior:smooth;
+
+}
+
+html{
+
+overflow-x:hidden;
+
+}
+
+body{
+
+background:var(--background);
+
+color:var(--text);
+
+font-family:"Inter",sans-serif;
+
+transition:.4s;
+
+overflow-x:hidden;
+
+}
+
+/* --------------------------
+   TYPOGRAPHY
+--------------------------- */
+
+h1,h2,h3,h4,h5{
+
+font-family:"Sora",sans-serif;
+
+font-weight:700;
+
+}
+
+.number{
+
+font-family:"Space Grotesk",sans-serif;
+
+}
+
+/* --------------------------
+   GLASS
+--------------------------- */
+
+.glass{
+
+background:var(--card);
+
+backdrop-filter:blur(22px);
+
+border:1px solid var(--border);
+
+box-shadow:var(--shadow);
+
+}
+
+/* --------------------------
+   BUTTON
+--------------------------- */
+
+.btn-primary{
+
+background:linear-gradient(
+135deg,
+var(--primary),
+var(--primary-light)
+);
+
+color:white;
+
+padding:15px 34px;
+
+border-radius:999px;
+
+font-weight:600;
+
+transition:.35s;
+
+cursor:pointer;
+
+}
+
+.btn-primary:hover{
+
+transform:translateY(-4px);
+
+box-shadow:
+0 10px 35px rgba(215,38,56,.45);
+
+}
+
+/* --------------------------
+   CUSTOM SCROLLBAR
+--------------------------- */
+
+::-webkit-scrollbar{
+
+width:8px;
+
+}
+
+::-webkit-scrollbar-track{
+
+background:var(--background);
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:var(--primary);
+
+border-radius:999px;
+
+}
