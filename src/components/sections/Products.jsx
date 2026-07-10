@@ -379,7 +379,7 @@ export default function Products() {
             >
               {[
                 { number: "2016", title: "Established" },
-                { number: "6000+", title: "Products Delivered" },
+                { number: "8000+", title: "Products Delivered" },
                 { number: "65%", title: "Railway Presence" },
                 { number: "100%", title: "Quality Tested" },
               ].map((item) => (
