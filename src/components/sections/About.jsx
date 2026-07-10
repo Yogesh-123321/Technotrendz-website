@@ -32,7 +32,7 @@ const features = [
 
 const stats = [
   { value: "2016", label: "Established" },
-  { value: "6000+", label: "Products Delivered" },
+  { value: "8000+", label: "Products Delivered" },
   { value: "65%", label: "Railway Presence" },
 ];
 
@@ -84,7 +84,7 @@ export default function About() {
             <img
               src={factory1}
               alt=""
-              className="h-[500px] w-full object-cover"
+              className="h-[800px] w-full object-cover"
             />
           </motion.div>
 
@@ -98,18 +98,56 @@ export default function About() {
               Precision Manufacturing
             </h3>
 
-            <p className="text-lg leading-9 text-slate-300" style={{ marginTop: "24px" }}>
-              Technotrendz Solutions Pvt. Ltd. specializes in the design,
-              manufacturing and supply of premium electrical switchgear,
-              railway electrical products, industrial monitoring systems
-              and mission-critical infrastructure solutions.
-            </p>
+            <p
+  className="text-lg leading-9 text-slate-300"
+  style={{ marginTop: "24px" }}
+>
+  Technotrendz Solutions Pvt. Ltd. is a leading manufacturer of premium
+  electrical switchgear, railway electrical products, industrial
+  monitoring systems, and mission-critical infrastructure solutions,
+  delivering innovative, reliable, and high-quality products trusted by
+  industries and Indian Railways across the country.
+</p>
 
-            <p className="text-lg leading-9 text-slate-300" style={{ marginTop: "20px" }}>
-              Our manufacturing processes combine skilled manpower,
-              modern machinery and rigorous quality standards to
-              deliver reliable products trusted across India.
-            </p>
+<p
+  className="text-lg leading-9 text-slate-300"
+  style={{ marginTop: "20px" }}
+>
+  Our state-of-the-art manufacturing facilities, skilled workforce, and
+  stringent quality standards enable us to consistently deliver
+  dependable solutions while maintaining excellence in performance,
+  quality, and customer satisfaction. Our achievements include:
+</p>
+
+<ul
+  className="list-disc pl-8 space-y-3 text-lg leading-9 text-slate-300"
+  style={{ marginTop: "20px" }}
+>
+  <li>
+    Successfully supplied <strong>8,000+ D&amp;ED units</strong> for
+    railway applications.
+  </li>
+
+  <li>
+    Trusted by Railway Panel Manufacturers and multiple Indian Railway
+    Zones for consistent quality and reliability.
+  </li>
+
+  <li>
+    Market leader in its product category with unmatched delivery,
+    product quality, and dependable after-sales support.
+  </li>
+
+  <li>
+    The only approved <strong>MSME</strong> in its specialized product
+    category.
+  </li>
+
+  <li>
+    More than <strong>60%</strong> of total supplies are made directly
+    to Indian Railways, reflecting long-term customer trust.
+  </li>
+</ul>
 
             {/* Stats */}
             <div

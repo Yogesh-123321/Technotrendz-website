@@ -109,7 +109,7 @@ export default function Hero() {
             </div>
 
             <div>
-              <h2 className="text-4xl font-bold text-cyan-400">6000+</h2>
+              <h2 className="text-4xl font-bold text-cyan-400">8000+</h2>
               <p className="text-slate-400" style={{ marginTop: "8px" }}>
                 Products Delivered
               </p>
