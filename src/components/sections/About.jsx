@@ -129,7 +129,7 @@ export default function About() {
   </li>
 
   <li>
-    Trusted by Railway Panel Manufacturers and multiple Indian Railway
+    Trusted by Railway Panel Manufacturers and all Indian Railway
     Zones for consistent quality and reliability.
   </li>
 

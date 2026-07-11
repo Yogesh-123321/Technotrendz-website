@@ -1,10 +1,15 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Home from "./pages/Home";
+import Newsletter from "./pages/Newsletter";
 
 function App() {
   return (
     <BrowserRouter>
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/newsletter" element={<Newsletter />} />
+      </Routes>
     </BrowserRouter>
   );
 }
